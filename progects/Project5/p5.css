@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+
+body{
+    font-family: "Heebo", sans-serif;
+    margin: 0;
+    direction: rtl;   
+   
+}
+
+
+
+.header{
+    width: 430px;
+    height: 18px;
+    background-color: #FDBD03;
+    
+}
+    
+.whatsup{
+    background-color: #FDBD03;
+    width: 95px;
+    height: 95px;
+    border-radius: 50px;
+    background-image: url(../Project5/Images5/Icon\ awesome-whatsapp.svg ) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    margin-top: 60px;
+    margin-left: 65px;
+   
+}
+.img{  
+    background-image: url(../Project5/Images5/Image\ 1.png);
+
+    width: 535px;
+    height: 800px;
+    margin-top: 135px;
+    margin-right: 165px;
+  
+}
+
+.text{
+    position: absolute;
+    top: 200px;
+    left: 690px;
+    
+}
+h1{
+    font-size: 66px;
+    color: #FDBD03;
+}
+p{
+    font-size: 20px;
+    color: #020253;
+}
+.form{
+    position: absolute;
+    left: 183px;
+    top: 434px;  
+
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+.input-container{
+    flex-direction: column;
+    display: flex;
+}
+label{
+    font: normal normal bold 16px/24px Heebo;
+    color: #2C2C2C;
+}
+input{
+    width: 418px;
+    height: 50px;
+    background-color: #E5EEFF;
+    border: none; 
+    border-bottom: 4px solid #FDBD03;
+}
+.input-container1{
+    flex-direction: column;
+    display: flex;
+}
+#long{
+    width: 854px;
+    height: 143px;
+}
+input[type=submit]{
+    background-color: #FDBD03;
+    width: 166px;
+    height: 50px;
+    font: normal normal bold 22px/30px Heebo;
+}
+
+.circle{
+    display: flex;
+    position: absolute;
+    top: 1100px;
+    left: 55px;
+   
+}
+.circle1{
+    width: 95px;
+    height: 95px;
+    border-radius: 50px;
+    background-color: #FDBD03;
+    margin: 0  30px ;
+    margin-bottom: 40px; 
+    
+    
+}
+#img1{
+    background-image: url(../Project5/Images5/material-symbols--call.svg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#img2{
+background-image: url(../Project5/Images5/icon-park-solid--instagram-one.svg);
+background-size: 50%;
+background-repeat: no-repeat;
+background-position: center;
+}
+#img3{
+    background-image: url(../Project5/Images5/flowbite--instagram-solid.svg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#img4{
+    background-image: url(../Project5/Images5/ri--facebook-fill.svg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bottom{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 1035px;
+    height: 18px;
+    background-color: #FDBD03;
+   
+}
+ 
+@media screen and (max-width: 650px){
+    .header{
+     width: 320px;
+     height: 10px;
+    }
+    .whatsup{
+        width: 0;
+        height: 0;
+    }
+  
+.img{
+    width: 79px;
+    height: 119px;
+    background-size: 100%;
+   margin: 55px 250px;
+
+}
+    .text{
+        position: absolute;
+        top: 225px;
+        left: 85px;
+        text-align: center;
+        right: 50%;
+        transform: translateX(50%);
+    }
+    h1{
+        font: normal normal 900 40px/59px Heebo;
+    }
+p{
+    font: normal normal normal 15px/22px Heebo;
+}
+.form{
+    left: 35px;
+    top: 380px; 
+    right: 50%;
+    transform: translateX(50%); 
+}
+.container{
+    margin-top: 35px;
+    display: block;
+}
+label{
+    font: normal normal bold 10px/14px Heebo;
+}
+input{
+    width: 300px;
+    height: 35px;
+}
+#long{
+    width: 300px;
+    height: 105px;
+}
+input[type=submit]{
+    width: 300px;
+    height: 35px;
+    font: normal normal bold 15px/21px Heebo;
+    text-align: center;
+}
+.circle{
+    display: flex; 
+   justify-content: center;
+   align-items: center;
+   margin-left: 67px;
+ 
+   
+}
+.circle1{
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    margin: 0  20px ;
+    margin-bottom: 40px; 
+  
+   
+    
+    
+}
+    .bottom{
+        width: 100%;
+        height: 10px;
+    }
+}
+

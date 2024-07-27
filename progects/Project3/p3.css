@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+body{
+    font-family: "Heebo", sans-serif;
+    margin: 0;
+
+}
+
+.img{
+    background-image: url(../Project3/Image3/Coffee.png);
+    width: 1030px;
+    height: 920px;
+    background-position: center center;
+    background-size: cover;
+    
+   
+}
+.block{
+    width: 750px;
+    height: inherit;
+    background-color: #FFFFFF;
+}
+.contant{
+    width: 430px;
+    height: 500px;
+    direction: rtl;
+    position: absolute;
+    top: 215px;
+    right: 220px;
+    
+}
+h1{
+    font-size: 43px;
+    color: #020253;
+}
+p{
+    font-size: 20px;
+    color: #020253;
+}
+form{
+    margin-top: 50px;
+}
+label{
+    font-weight: bold;
+    font-size: 16px;
+}
+input.field{
+    width: 100%;
+    font-size: 20px;
+    height: 50px;
+    background-color: #E5EEFF;
+    border: none; 
+    border-bottom: 2px solid #020253; 
+}
+
+input[type=submit]{
+    background-color: #020253;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    font-family: "Heebo", sans-serif;
+    padding: 10px 50px;
+}
+@media screen and (max-width: 650px){
+    body{display: block;}
+    .img{
+        width: 100%;
+        height: 220px;
+       background-image: url(../Project3/Image3/Coffee@2x.png);
+       background-size: cover;
+       background-position: center center;
+    }
+    .block{
+       width: 100%;
+       height: 438px;
+
+    }
+    .contant{
+        width: 80%;
+       
+        right: 50%;
+        transform: translateX(50%);
+        padding: 47px 42px 82px 42px;
+    }
+    h1{
+        font-size: 25px;
+        
+    }
+    p{
+        font-size: 15px;
+    }
+    label{
+        font-size: 10px;
+    }
+    input.field{
+        height: 34px;
+    }
+    input[type=submit]{
+        width: 100%;
+        height: 35px;
+        font-size: 15px;
+        line-height: 17.5px
+       
+    }
+}
+@media screen and (max-width: 440px){
+    .contant{ 
+        right: 50%;
+        transform: translateX(50%);
+        width: 70%;
+
+}
+}

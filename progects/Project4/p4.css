@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
+body{
+    margin: 0;
+    direction: rtl;
+    font-family: "Assistant", sans-serif;
+}
+.img{
+    width: 100%;
+    height: 650px;
+    background-image: url(../Project4/Image4/project4.png);
+   background-position-y: -93px;
+   background-position-x: center;
+    
+}
+.text{
+    width: 1170px;
+    height: 230px;
+    display: grid;
+    position: relative;
+    top: 150px;
+    right: 350px;
+
+
+}
+h1{
+    font-size: 75px;
+    color: #D3E10E;
+    text-align: center;
+    margin-bottom: 22px;
+    
+ }
+p{
+     font-size: 20px;
+     color: #F9F9F9;
+     text-align: center;
+ }
+ 
+.form{
+    width: 1170px;
+    position: relative; 
+    margin: 80px auto 0;
+    
+
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.input-container{
+    flex-direction: column;
+    display: flex;
+}
+
+
+label{
+    font: normal normal bold 16px/21px Assistant;
+    color: #011560;
+}
+input{
+    width: 415px;
+    height: 50px;
+    background-color: #F6F6F6;
+    border: none; 
+    border-bottom: 4px solid #D3E10E;
+    
+}
+input[type=submit]{
+    width: 165px;
+    height: 50px;
+    background-color: #D3E10E;
+    font: normal normal bold 22px/30px Assistant;
+    color: #011560;
+    margin-top: 15px;
+
+}
+@media screen and (max-width: 650px){
+    body{
+        display: block;
+    }
+    .img{
+        width: 100%;
+        height: 300px;
+       /* background-image: url(../images/Group\ 198.png);*/
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center center;
+        
+    }
+   .text{
+    /*background-color: #1A1A1AD4;*/
+        width: 320px;
+        height: 125px;
+        position: relative;
+        top: 70px;
+        right: 25%;
+}
+    h1{
+        font-size: 25px; 
+    }
+    p{
+        font-size: 15px;
+    }
+    .form{
+        width: 450px;
+        height: 200px;
+    }
+    form{
+        display: grid;
+        width: 100%;
+    }
+    label{
+        font-size:10px;
+    }
+    input{
+        width: 450px;
+        height: 35px;
+    }
+    input[type=submit]{
+        width: 453px;
+        height: 35px;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 370px){
+    .img{
+        background-image: url(..//Project4/Image4\ 198.png);
+        background-size: 100%;
+        background-position: center center;
+    }
+    h1{
+        font-size: 0;
+    }
+    p{
+        font-size: 0;
+    }
+    .form{
+        width: 270px;
+        height: 170px;
+        margin: 80px auto auto auto;
+    }
+    form{
+        display: grid;
+        width: 100%;
+        
+    }
+    label{
+        font-size:10px;
+        margin-top: 15px;
+    }
+    input{
+        width: 270px;
+        height: 25px;
+        
+    }
+    input[type=submit]{
+        width: 273px;
+        height: 30px;
+        font-size: 14px;
+        line-height: 15px;
+        margin-top: 20px;
+    }
+}
+
+
