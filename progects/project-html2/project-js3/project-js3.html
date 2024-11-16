@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List-Cart</title>
+    <link rel="stylesheet" href="project3.css">
+    <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/cosmo/bootstrap.min.css" integrity="sha384-5QFXyVb+lrCzdN228VS3HmzpiE7ZVwLQtkt+0d9W43LQMzz4HBnnqvVxKg6O+04d" crossorigin="anonymous">
+</head>
+<body>
+<div class="page">
+    <div class="site">
+      <div class="site-inner">
+      <h2>Here you c@n shop your ../web/.site..!</h2>
+      <h3>Please choose way for build your web-site.</h3>
+      <div class="container">
+ <!-- **************************************************** -->
+      <div class="item item_1">
+      <div class="image">
+        <img src="image-js3/elementor-wordpress.jpg" alt="elementor">
+      </div>
+      <div class="name">Elementor</div>
+      <div class="info">
+       <p>With this option we can build a simple website <br>
+        that will display general information about your activities.</p>
+      </div>
+      <div class="price">250$</div>
+      <button id="button" onclick="addItem(this)"><ion-icon name="cart-outline"></ion-icon></button>
+      </div>
+ <!-- **************************************************** -->
+      <div class="item item_2">
+        <div class="image">
+            <img src="image-js3/js.jpeg" alt="js">
+          </div>
+          <div class="name">Html/Css/JS</div>
+          <div class="info">
+           <p>Here we will prepare for you a full-fledged multifunctional site from 0 
+            with all possible functions and elements.</p>
+          </div>
+          <div class="price">500$</div>
+          <button id="button" onclick="addItem(this)"><ion-icon name="cart-outline"></ion-icon></button>
+      </div>
+ <!-- ***************************************************** -->
+      <div class="item item_3">
+        <div class="image">
+            <img src="image-js3/figma.png" alt="">
+          </div>
+          <div class="name">Figma</div>
+          <div class="info">
+           <p>Due to its ease of use, we can quickly give you a 
+            suitable sketch for your website.</p>
+          </div>
+          <div class="price">200$</div>
+          <button id="button" onclick="addItem(this)"><ion-icon name="cart-outline"></ion-icon></button>
+      </div>
+ <!-- ***************************************************** -->
+      <div class="item item_4">
+        <div class="image">
+            <img src="image-js3/ilustrator.webp" alt="">
+          </div>
+          <div class="name">Illustrator</div>
+          <div class="info">
+           <p>Detailed development of elements for any of your use in the
+             field of animation.</p>
+          </div>
+          <div class="price">300$</div>
+          <button id="button" onclick="addItem(this)"><ion-icon name="cart-outline"></ion-icon></button>
+      </div>
+      <!-- ***************************************************** -->
+<table class="table table-striped mt-5">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Price</th>
+    </tr>
+  </thead>
+  <tbody id="products">
+
+  </tbody>
+</table>     
+<h3>Total price: <span id="totalPrice">0</span></h3>
+      <!-- ***************************************************** -->
+    </div>
+    </div>
+  </div>
+</div>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="project-js3.js"></script>
+
+</body>
+</html>

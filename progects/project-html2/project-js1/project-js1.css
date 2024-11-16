@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+body {
+    margin: 0;
+}
+.all{
+    display: flex;
+    justify-content: center; 
+    background-color: rgba(128, 128, 128, 0.411);
+    position: relative;
+}
+
+#work-page {
+    height: 700px;
+    width: 1300px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 0;
+    margin: 0 10px;
+    top: 25vh;
+    position: inherit;
+}
+
+#container {
+    width: 300px;
+    height: 100%;
+    background-color: rgba(53, 155, 33, 0.253);
+    direction: rtl;
+    text-align: left; 
+    padding: 10px;
+    margin: 0 10px ;
+    box-sizing: border-box; 
+    position: initial;
+    left: 136px;
+    
+    
+}
+
+#container h3 {
+    font-family: "Rubik Dirt", system-ui;
+    font-size: 50px;
+    text-align: center; 
+}
+
+#container input, #container select {
+    width: 100%; 
+    padding: 5px;
+    margin: 3px 0;
+    box-sizing: border-box; 
+}
+#container button{
+    width: 49%;
+    height: 40px;
+    margin: 5px 0 5px;
+    text-align: center;
+    display: inline-block;
+    padding: 0 5px 0 5px;
+    background-color: darkgreen;
+    color: azure;
+    font-family: "Rubik Dirt", system-ui;
+    font-size: 30px;
+}
+#container label{
+    font-family: "Rubik Dirt", system-ui;
+}
+
+@media screen and (max-width: 460px){
+    #container button{
+        font-size: 30px;
+        width: 100%;
+        margin: 5px 0 5px;
+        padding: 0 5px 0 5px;
+        display: flex;
+    }
+}

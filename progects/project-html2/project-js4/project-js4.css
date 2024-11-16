@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+body {
+  margin: 0;
+  background-color: #f4c531;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header h2{
+    font-family: "Roboto Flex", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 30px;
+}
+/* 1em = 20px */
+
+.task {
+  width: 50em;
+  max-width: 90%;
+  height: 35em;
+  background-color: rgb(223, 192, 150);
+  border-radius: 10px;
+  margin: 20px auto;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.658);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.task button{
+    font-family: "Roboto Flex", sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    background-color: #ffffff;
+    color: #23234c;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0.8em 1.8em;
+    border-radius: 0.3em;
+}
+.task #question{
+    background-color: #eeedf1;
+    font-size: 2em;
+    font-weight: 600;
+    color: #23234c;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.4em 0 1em 0;
+    padding: 1em 0;
+}
+.task input{
+    font-size: 1em;
+  font-weight: 600;
+  width: 2.35em;
+  color: #23234c;
+  text-align: center;
+  padding: 0 0.2em;
+  border: none;
+  background-color: transparent;
+  border-bottom: 0.12em solid #23234c;
+  margin: 0 0.25em;
+}
+.task input:focus{
+    border-color: #f4c531;
+    outline: none;   
+}
+.task input[type="number"] {
+  appearance: textfield;
+  -moz-appearance: textfield; 
+  -webkit-appearance: textfield;
+}
+.task input[type="number"]::-webkit-outer-spin-button,
+.task input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+  #start-btn {
+    font-size: 1.2em;
+    font-weight: 500;
+    background-color: #ffffff;
+    color: #23234c;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0.8em 1.8em;
+    border-radius: 0.3em;
+  }
+  #result {
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    color: #23234c;
+  }
+  #result span {
+    font-weight: 600;
+  }
+  @media screen and (max-width: 460px){
+    .task {
+      width: 100%;
+      height: auto;
+      padding: 20px;
+      box-sizing: border-box;
+  }
+  }
+  
